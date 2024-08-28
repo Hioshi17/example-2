@@ -1,0 +1,38 @@
+.message {
+    background: #c0bcbc;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.my-message {
+    margin-left: auto;
+    background: aliceblue;
+}
+
+.message:last-child {
+    border-bottom: none;
+}
+
+.message__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.message__author {
+    margin: 0;
+    font-size: 18px;
+}
+
+.message__timestamp {
+    font-size: 14px;
+    color: #999;
+}
+
+.message__content {
+    font-size: 16px;
+    color: #333;
+}
